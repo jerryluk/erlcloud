@@ -1,6 +1,6 @@
 -record(aws_config, {
-          as_host="autoscaling.amazonaws.com"::string(),
-          ec2_host="ec2.amazonaws.com"::string(),
+          as_host="autoscaling.us-west-2.amazonaws.com"::string(),
+          ec2_host="ec2.us-west-2.amazonaws.com"::string(),
           iam_host="iam.amazonaws.com"::string(),
           sts_host="sts.amazonaws.com"::string(),
           s3_scheme="https://"::string(),
